@@ -247,7 +247,7 @@ if __name__ == '__main__':
     shutil.copytree(test_case_complete_path, juliet_suite_path_true)
 
     # create random true suite
-    create_random_juliet_java_true(juliet_suite_path_true, suite_language)
+    ### create_random_juliet_java_true(juliet_suite_path_true, suite_language)
     # create matching false suite
     create_random_juliet_c_false(juliet_suite_path_true, juliet_suite_path_false, suite_language)
 
